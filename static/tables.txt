@@ -1,0 +1,18 @@
+          action                                                                                                                  goto
+No        +              -              *              /              (              )              num            $              E         F         T         
+0                                                                     S4                            S5                            1         2         3         
+1         S6             S7                                                                                        ACC                              
+2         R T->F         R T->F         R T->F         R T->F                        R T->F                        R T->F                                       
+3         R E->T         R E->T         S8             S9                            R E->T                        R E->T                                       
+4                                                                     S4                            S5                            10        2         3         
+5         R F->num       R F->num       R F->num       R F->num                      R F->num                      R F->num                                     
+6                                                                     S4                            S5                                      2         11        
+7                                                                     S4                            S5                                      2         12        
+8                                                                     S4                            S5                                      13                  
+9                                                                     S4                            S5                                      14                  
+10        S6             S7                                                          S15                                                                        
+11        R E->E+T       R E->E+T       S8             S9                            R E->E+T                      R E->E+T                                     
+12        R E->E-T       R E->E-T       S8             S9                            R E->E-T                      R E->E-T                                     
+13        R T->T*F       R T->T*F       R T->T*F       R T->T*F                      R T->T*F                      R T->T*F                                     
+14        R T->T/F       R T->T/F       R T->T/F       R T->T/F                      R T->T/F                      R T->T/F                                     
+15        R F->(E)       R F->(E)       R F->(E)       R F->(E)                      R F->(E)                      R F->(E)                                     
